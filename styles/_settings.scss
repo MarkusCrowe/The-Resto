@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "alura";
+    src: url(../assets/font/Allura-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins";
+    src: url(../assets/font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(../assets/font/Roboto-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+    user-select: none;   
+}
+
+// body {
+//     &::before {
+//         content: "";
+//         position: absolute;
+//         height: 100%;
+//         width: 100%;
+//         top: 0;
+//         left: 0;
+//         background: $black1;
+//         animation: animeBefore 3s ease forwards;
+//         z-index: 1000;
+
+//         @keyframes animeBefore {
+//             to {
+//                 opacity: 0;
+//                 z-index: -1;
+//             }           
+//         }
+//     }
+// }
+
+
+$white1: rgb(239, 239, 239);
+$white2: rgb(222, 222, 222);
+$white3: white;
+$green1: #a67245;
+$black1: black;
+$black2: rgb(33,32,30);
+$gray1: rgb(171, 171, 171);
+$gray3: rgb(112, 112, 112);
+$gary2: rgb(193, 193, 193);
+
+@mixin title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 45px;
+    p {
+        font-family: "alura";
+        color: $green1;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: "poppins";
+        text-transform: uppercase;
+        color: $white1;
+    }
+}

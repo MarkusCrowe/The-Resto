@@ -1,0 +1,952 @@
+@font-face {
+  font-family: "alura";
+  src: url(../assets/font/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins";
+  src: url(../assets/font/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../assets/font/Roboto-Light.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto";
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body header {
+  background: url(../assets/images/bg-slider-06.jpg) center/cover;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 45px;
+  position: relative;
+}
+body header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 45px;
+}
+body header .title p {
+  font-family: "alura";
+  color: #a67245;
+}
+body header .title h1, body header .title h2, body header .title h3, body header .title h4, body header .title h5, body header .title h6 {
+  font-family: "poppins";
+  text-transform: uppercase;
+  color: rgb(239, 239, 239);
+}
+body header .title h1 {
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+body header .title p {
+  font-size: 3.5rem;
+}
+body header img {
+  width: 2%;
+}
+body header .header-slogan {
+  color: rgb(239, 239, 239);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1rem;
+}
+body header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(239, 239, 239);
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 150px;
+}
+body header nav h2 {
+  font-family: "alura";
+  font-size: 3rem;
+}
+body header nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 75px;
+  text-transform: uppercase;
+}
+body header nav ul li {
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+body header nav ul li:hover {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+}
+body header nav ul li a {
+  color: rgb(239, 239, 239);
+  text-decoration: none;
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+  position: relative;
+}
+body header nav ul li a:hover {
+  cursor: pointer;
+  color: #a67245;
+}
+body header nav ul li a:hover::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #a67245;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+body header nav .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+body header nav .icons i {
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+body header nav .icons i:hover {
+  cursor: pointer;
+  color: #a67245;
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
+}
+
+main {
+  background: rgb(33, 32, 30);
+}
+main .section-1 {
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .section-1 article {
+  width: 50%;
+}
+main .section-1 .section-1-left {
+  padding: 20px;
+  background: rgb(239, 239, 239);
+}
+main .section-1 .section-1-left .section-1-container {
+  width: 100%;
+  height: 100%;
+  border: 1px dashed #a67245;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+main .section-1 .section-1-left .section-1-container .title-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 45px;
+  line-height: 25px;
+}
+main .section-1 .section-1-left .section-1-container .title-2 p {
+  font-family: "alura";
+  color: #a67245;
+}
+main .section-1 .section-1-left .section-1-container .title-2 h1, main .section-1 .section-1-left .section-1-container .title-2 h2, main .section-1 .section-1-left .section-1-container .title-2 h3, main .section-1 .section-1-left .section-1-container .title-2 h4, main .section-1 .section-1-left .section-1-container .title-2 h5, main .section-1 .section-1-left .section-1-container .title-2 h6 {
+  font-family: "poppins";
+  text-transform: uppercase;
+  color: rgb(239, 239, 239);
+}
+main .section-1 .section-1-left .section-1-container .title-2 p {
+  font-size: 2.5rem;
+}
+main .section-1 .section-1-left .section-1-container .title-2 h3 {
+  color: black;
+  font-size: 1.5rem;
+}
+main .section-1 .section-1-left .section-1-container img {
+  width: 35px;
+}
+main .section-1 .section-1-left .section-1-container p {
+  width: 95%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+main .section-1 .section-1-left .section-1-container .chief {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .section-1 .section-1-left .section-1-container .chief img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  width: 100px;
+}
+main .section-1 .section-1-left .section-1-container .chief .name {
+  font-family: "poppins";
+}
+main .section-1 .section-1-left .section-1-container .chief .job {
+  text-transform: uppercase;
+  color: rgb(171, 171, 171);
+  font-size: 0.9rem;
+}
+main .section-1 .section-1-right {
+  background: url(../assets/images/store-01.jpg) center/cover;
+}
+main .section-2 {
+  height: 1250px;
+  background: url(../assets/images/bg-menu-01.jpg) bottom no-repeat;
+}
+main .section-2 .menu-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+  padding-top: 100px;
+}
+main .section-2 .menu-title p {
+  font-size: 2.5rem;
+  font-family: "alura";
+  color: #a67245;
+}
+main .section-2 .menu-title img {
+  width: 35px;
+}
+main .section-2 .menu-title ul {
+  color: rgb(239, 239, 239);
+  list-style-type: none;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 150px;
+}
+main .section-2 .menu-title ul li {
+  position: relative;
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+main .section-2 .menu-title ul li::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: rgb(239, 239, 239);
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+main .section-2 .menu-title ul li:hover {
+  cursor: pointer;
+  color: #a67245;
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+}
+main .section-2 .menu-title ul li:hover::before {
+  background: #a67245;
+}
+main .section-2 .menu-container {
+  height: 740px;
+  width: 55%;
+  margin: 50px auto;
+  padding: 20px 0;
+  background: rgb(239, 239, 239);
+  border-top: 5px solid #a67245;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .section-2 .menu-container .menu-box {
+  width: 45%;
+  display: grid;
+  grid-template-columns: 30% 60% 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px dashed rgb(171, 171, 171);
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+main .section-2 .menu-container .menu-box:hover {
+  background: rgb(222, 222, 222);
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+}
+main .section-2 .menu-container .menu-box img {
+  border-radius: 50%;
+}
+main .section-2 .menu-container .menu-box .dish .dish-name {
+  text-transform: uppercase;
+  font-family: "poppins";
+}
+main .section-2 .menu-container .menu-box .dish .dish-recipe {
+  font-size: 1.2rem;
+}
+main .section-2 .menu-container .menu-box .price {
+  color: #a67245;
+  font-size: 1.3rem;
+}
+main .booking {
+  height: 635px;
+  width: 70%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+main .booking .opening {
+  background: black;
+  padding: 30px;
+}
+main .booking .opening .opening-container {
+  border: 1px dashed rgb(239, 239, 239);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+main .booking .opening .opening-container .open-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 45px;
+  line-height: 30px;
+}
+main .booking .opening .opening-container .open-title p {
+  font-family: "alura";
+  color: #a67245;
+}
+main .booking .opening .opening-container .open-title h1, main .booking .opening .opening-container .open-title h2, main .booking .opening .opening-container .open-title h3, main .booking .opening .opening-container .open-title h4, main .booking .opening .opening-container .open-title h5, main .booking .opening .opening-container .open-title h6 {
+  font-family: "poppins";
+  text-transform: uppercase;
+  color: rgb(239, 239, 239);
+}
+main .booking .opening .opening-container .open-title p {
+  font-size: 3rem;
+}
+main .booking .opening .opening-container .open-title h3 {
+  font-size: 1.8rem;
+}
+main .booking .opening .opening-container img {
+  width: 35px;
+}
+main .booking .opening .opening-container h4 {
+  font-family: "poppins";
+  color: #a67245;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+main .booking .opening .opening-container .days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+main .booking .opening .opening-container .days .hours p {
+  color: rgb(239, 239, 239);
+  font-size: 1.2rem;
+  text-align: center;
+}
+main .booking .online-booking {
+  background: rgb(239, 239, 239);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 80px;
+}
+main .booking .online-booking .booking-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 45px;
+  line-height: 35px;
+}
+main .booking .online-booking .booking-title p {
+  font-family: "alura";
+  color: #a67245;
+}
+main .booking .online-booking .booking-title h1, main .booking .online-booking .booking-title h2, main .booking .online-booking .booking-title h3, main .booking .online-booking .booking-title h4, main .booking .online-booking .booking-title h5, main .booking .online-booking .booking-title h6 {
+  font-family: "poppins";
+  text-transform: uppercase;
+  color: rgb(239, 239, 239);
+}
+main .booking .online-booking .booking-title p {
+  font-size: 3rem;
+}
+main .booking .online-booking .booking-title h3 {
+  font-size: 2.2rem;
+  color: black;
+}
+main .booking .online-booking img {
+  width: 35px;
+}
+main .booking .online-booking form {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50% 50%;
+  gap: 20px;
+}
+main .booking .online-booking form select, main .booking .online-booking form input {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  width: 80%;
+  padding: 5px 10px;
+  border-bottom: 1px solid rgb(171, 171, 171);
+}
+main .booking .online-booking form select:focus, main .booking .online-booking form input:focus {
+  background: white;
+}
+main .booking .online-booking form select {
+  width: 87%;
+}
+main .booking .online-booking button {
+  background: black;
+  color: rgb(239, 239, 239);
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-family: "poppins";
+  font-size: 1.1rem;
+  letter-spacing: 5px;
+  padding: 15px 35px;
+  border-radius: 30px;
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+main .booking .online-booking button:hover {
+  background: white;
+  color: #a67245;
+  cursor: pointer;
+  border: 2px solid #a67245;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+main .shop {
+  width: 75%;
+  margin: 50px auto 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+main .shop .shop-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 45px;
+}
+main .shop .shop-title p {
+  font-family: "alura";
+  color: #a67245;
+}
+main .shop .shop-title h1, main .shop .shop-title h2, main .shop .shop-title h3, main .shop .shop-title h4, main .shop .shop-title h5, main .shop .shop-title h6 {
+  font-family: "poppins";
+  text-transform: uppercase;
+  color: rgb(239, 239, 239);
+}
+main .shop .shop-title p {
+  font-size: 3rem;
+}
+main .shop .shop-title h3 {
+  font-size: 2.5rem;
+}
+main .shop img {
+  width: 35px;
+}
+main .shop article {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "e1 e3" "e2 e3";
+}
+main .shop article .event-1, main .shop article .event-2 {
+  background: rgb(239, 239, 239);
+  margin: 15px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+main .shop article .event-1 .event-date-1, main .shop article .event-1 .event-date-2, main .shop article .event-2 .event-date-1, main .shop article .event-2 .event-date-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .shop article .event-1 .event-date-1 .event-date-container, main .shop article .event-1 .event-date-2 .event-date-container, main .shop article .event-2 .event-date-1 .event-date-container, main .shop article .event-2 .event-date-2 .event-date-container {
+  color: rgb(239, 239, 239);
+  background: rgb(33, 32, 30);
+  width: 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 25px;
+}
+main .shop article .event-1 .event-date-1 .event-date-container p:first-child, main .shop article .event-1 .event-date-2 .event-date-container p:first-child, main .shop article .event-2 .event-date-1 .event-date-container p:first-child, main .shop article .event-2 .event-date-2 .event-date-container p:first-child {
+  font-family: "poppins";
+  font-size: 1.8rem;
+}
+main .shop article .event-1 .event-date-1 .event-date-container p:last-child, main .shop article .event-1 .event-date-2 .event-date-container p:last-child, main .shop article .event-2 .event-date-1 .event-date-container p:last-child, main .shop article .event-2 .event-date-2 .event-date-container p:last-child {
+  font-size: 1.3rem;
+}
+main .shop article .event-1 .infos, main .shop article .event-2 .infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .shop article .event-1 {
+  grid-area: e1;
+}
+main .shop article .event-1 .event-date-1 {
+  background: url(../assets/images/event-01.jpg) center/cover;
+}
+main .shop article .event-2 {
+  grid-area: e2;
+}
+main .shop article .event-2 .event-date-2 {
+  background: url(../assets/images/event-02.jpg) center/cover;
+}
+main .shop article .event-3 {
+  grid-area: e3;
+  margin: 15px;
+  background: url(../assets/images/event-03.jpg) center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .shop article .event-3 .event-container-3 {
+  background: rgb(239, 239, 239);
+  width: 90%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .shop article .event-3 .event-container-3 .event-date-container {
+  color: rgb(239, 239, 239);
+  background: rgb(33, 32, 30);
+  width: 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 25px;
+}
+main .shop article .event-3 .event-container-3 .event-date-container p:first-child {
+  font-family: "poppins";
+  font-size: 1.8rem;
+}
+main .shop article .event-3 .event-container-3 .event-date-container p:last-child {
+  font-size: 1.3rem;
+}
+main .shop article .event-3 .event-container-3 .infos-3 {
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+main .shop article .event-1, main .shop article .event-2, main .shop article .event-3 {
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+main .shop article .event-1 h3, main .shop article .event-2 h3, main .shop article .event-3 h3 {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+main .shop article .event-1 .event-infos, main .shop article .event-2 .event-infos, main .shop article .event-3 .event-infos {
+  color: rgb(171, 171, 171);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.2rem;
+  gap: 10px;
+  letter-spacing: 2px;
+}
+main .shop article .event-1 button, main .shop article .event-2 button, main .shop article .event-3 button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+main .shop article .event-1 button:hover, main .shop article .event-2 button:hover, main .shop article .event-3 button:hover {
+  text-decoration: underline;
+  color: #a67245;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+}
+main .shop article .event-1:hover, main .shop article .event-2:hover, main .shop article .event-3:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+main .blog {
+  height: 750px;
+  position: relative;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+main .blog .map {
+  background: url(../assets/images/gmap.jpg) center/cover;
+}
+main .blog .post {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 65%;
+  height: 400px;
+  background: rgb(239, 239, 239);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+main .blog .post img {
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: -10%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+main .blog .post p:nth-child(2) {
+  font-size: 1.3rem;
+  text-align: center;
+  width: 80%;
+  line-height: 40px;
+  position: relative;
+}
+main .blog .post p:nth-child(2) span {
+  font-size: 2rem;
+}
+main .blog .post p:nth-child(3) {
+  font-size: 1.8rem;
+}
+main .blog .post p:nth-child(4) {
+  font-size: 1.2rem;
+  color: #a67245;
+}
+
+footer {
+  background: url(../assets/images/bg-footer.jpg) center/cover;
+  height: 335px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+footer section:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer section:nth-child(1) h3 {
+  font-family: "alura";
+  color: #a67245;
+  font-size: 3rem;
+  margin-left: 30%;
+}
+footer section:nth-child(1) p {
+  color: rgb(239, 239, 239);
+  font-size: 1.2rem;
+  width: 60%;
+  line-height: 40px;
+  margin-left: 30%;
+}
+footer section:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-left: 100px;
+}
+footer section:nth-child(2) h3 {
+  font-family: poppins;
+  color: rgb(239, 239, 239);
+  text-transform: uppercase;
+}
+footer section:nth-child(2) article:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 15px;
+}
+footer section:nth-child(2) article:first-child input {
+  color: rgb(171, 171, 171);
+  border: 1px solid rgb(112, 112, 112);
+  background: none;
+  width: 40%;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+footer section:nth-child(2) article:first-child input:focus {
+  background: rgb(239, 239, 239);
+  color: black;
+}
+footer section:nth-child(2) article:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 50px;
+}
+footer section:nth-child(2) article:last-child i {
+  color: rgb(171, 171, 171);
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+footer section:nth-child(2) article:last-child i:hover {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+  color: #a67245;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
